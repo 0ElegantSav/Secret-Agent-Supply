@@ -24,12 +24,12 @@ html{
 
 /*MAIN BANNER*/
 .banner{
+  display: flex;
   height: 25rem;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: none;
   background-position: center;
   background-size: cover;
-
 }
 
 .newarrival{
@@ -38,4 +38,35 @@ html{
   color: white;
   background-color: black;
   width:20rem;
+  margin-top:9rem;
+  margin-bottom: auto;
+  margin-left: 20rem;
+}
+
+.newarrival h4{
+  font-size:1rem;
+  margin-top: 2rem;
+  margin-left:3rem;
+  margin-bottom: 0px;
+}
+
+.newarrival h1{
+  font-size:2rem;
+  font-weight: bold;
+  margin-top:0.25rem;
+  margin-left: 3rem;
+}
+
+/*NAVIGATION SECTION*/
+.navigation{
+  display: flex;
+  justify-content: space-between;;
+  color: white;
+  background-color: firebrick;
+}
+
+.navigation li{
+  display: inline-block;
+  list-style: none;
+  padding: 0.75rem 0;
 }
