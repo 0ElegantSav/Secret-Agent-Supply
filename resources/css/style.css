@@ -2,6 +2,7 @@ html{
   font-size: 18px;
   font-family: Helvetica;
 }
+ /*TOP LOGO*/
 
 .logo{
   display:flex;
@@ -19,4 +20,22 @@ html{
 .logo p{
   margin-top: 0.66rem;
   margin-bottom: 0.66rem;
+}
+
+/*MAIN BANNER*/
+.banner{
+  height: 25rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.newarrival{
+  display:flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  width:20rem;
 }
